@@ -92,6 +92,7 @@
 
 </form>
 
+
 <div class ='author'>
     Desgined by Aleksei Novashov, 2026 (c) for Insight School
 </div>
@@ -182,6 +183,8 @@ form.addEventListener("submit", function(e) {
     if (!continuationText) {
 
         continuationText = document.createElement('div');
+
+        continuationText.className = 'continuetext';
 
         continuationText.innerHTML = 'Click here if you want to practice your decryption';
 
